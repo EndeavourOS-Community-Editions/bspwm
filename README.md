@@ -8,7 +8,7 @@ Community Edition
 
     cd sway
 
-    bash sway-install.sh
+    bash bspwm-install.sh
    
 ## Contained In The Script
     cp -R .config/* ~/.config/
