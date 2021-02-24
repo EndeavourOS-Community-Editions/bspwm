@@ -1,0 +1,2 @@
+# bspwm
+Setup for EndeavourOS
