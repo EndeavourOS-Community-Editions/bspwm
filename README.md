@@ -6,7 +6,7 @@ Community Edition
 
     git clone https://github.com/OdiousImp2604/bspwm.git
 
-    cd sway
+    cd bspwm
 
     bash bspwm-install.sh
    
@@ -17,7 +17,7 @@ Community Edition
     
     chmod -R +x ~/.config/bpswm/scripts
         
-    sudo pacman -Syu --needed --noconfirm - < packages-repository.txt
+    sudo yay -Syu --needed --noconfirm - < packages-repository.txt
     
     dbus-launch dconf load / < xed.dconf
 
