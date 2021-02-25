@@ -126,7 +126,7 @@
     - eos-log-tool
     - keyserver-rank
     - inxi
-  - name: "Browser"
+- name: "Browser"
   description: "choose your browser."
   hidden: false
   selected: false
