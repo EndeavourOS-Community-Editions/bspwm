@@ -6,7 +6,7 @@
   critical: false
   packages:
     - base-devel
-    - yay
+    - yay # this should be replaced with something under active development e.g. paru or pikaur
     - linux-headers
     - linux-firmware
     - pacman-contrib
@@ -77,7 +77,7 @@
     - ttf-croscore
     - ttf-carlito
     - ttf-caladea
-    - firefox
+    - firefox  # what is the point to install if we are giving the choice to users?
     - alsa-utils
     - alsa-plugins
     - alsa-firmware
@@ -136,6 +136,7 @@
     - chromium
     - vivaldi
     - konqueror
+    - librewolf # we can add to choice
     - falkon
     - epiphany
     - midori
@@ -194,7 +195,7 @@
     - arc-x-icons-theme
     - arc-gtk-theme
     - capitaine-cursors
-    - galculator
+    - galculator # but why?
     - gtk-engine-murrine
     - seahorse
 - name: "Printing-Support"
