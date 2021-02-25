@@ -1,4 +1,4 @@
-   bspwm
+    bspwm
     sxhkd
     polybar
     slock
@@ -20,7 +20,7 @@
     gvfs-gphoto2
     gvfs-nfs
     gvfs-smb
-    alacritty
+    termite
     lightdm
     lightdm-gtk-greeter
     lightdm-gtk-greeter-settings
