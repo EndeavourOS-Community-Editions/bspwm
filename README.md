@@ -20,4 +20,19 @@ Community Edition
     sudo yay -Syu --needed --noconfirm - < packages-repository.txt
     
     dbus-launch dconf load / < xed.dconf
+    
+## To-Do
+- Polybar Config
+- Scripts 
+- Some more things I've forgotten
+
+## Tutorial for sway-wm settings:
+- Background handled by nitrogen
+- Gtk3 theme handled by lxappearance-gtk3
+- Filebrowser = Thunar
+- Default Terminal-Emulator = Termite
+- Text-Editor = xed
+- Application Launcher = Rofi
+
+
 
