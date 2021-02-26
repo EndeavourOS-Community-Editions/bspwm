@@ -4,7 +4,7 @@
 
 # terminal emulator
 super + Return
-	alacritty
+	termite
 
 # program launcher
 super + d
@@ -12,21 +12,9 @@ super + d
                 -columns 2 -padding 50 -hide-scrollbar \
                 -show-icons -drun-icon-theme "Arc-X-D" -font "Droid Sans Regular 10"
 
-# launch browser
-super + o
-	firefox
-
 # make sxhkd reload its configuration files:
 super + Escape
 	pkill -USR1 -x sxhkd
-
-# power-menu
-super + shift + e
-   ~/.config/bspwm/scripts/power-menu -p rofi -c
-
-# lock
-super + f1
-   slock
 
 #
 # bspwm hotkeys
@@ -37,7 +25,7 @@ super + alt + {q,r}
 	bspc {quit,wm -r}
 
 # close and kill
-super + q
+super + {_,shift + }w
 	bspc node -{c,k}
 
 # alternate between the tiled and monocle layout
@@ -48,9 +36,9 @@ super + m
 super + y
 	bspc node newest.marked.local -n newest.!automatic.local
 
-# swap the current node and the biggest node
+# swap the current node and the biggest window
 super + g
-	bspc node -s biggest
+	bspc node -s biggest.window
 
 #
 # state/flags
@@ -64,28 +52,40 @@ super + {t,shift + t,s,f}
 super + ctrl + {m,x,y,z}
 	bspc node -g {marked,locked,sticky,private}
 
+#
 # focus/swap
 #
-
-#
-super + r
-	  bspc node -n 'last.!automatic.local'
-
 
 # focus the node in the given direction
 super + {_,shift + }{h,j,k,l}
 	bspc node -{f,s} {west,south,north,east}
 
+# focus the node for the given path jump
+super + {p,b,comma,period}
+	bspc node -f @{parent,brother,first,second}
+
+# focus the next/previous window in the current desktop
+super + {_,shift + }c
+	bspc node -f {next,prev}.local.!hidden.window
+
+# focus the next/previous desktop in the current monitor
+super + bracket{left,right}
+	bspc desktop -f {prev,next}.local
+
 # focus the last node/desktop
 super + {grave,Tab}
 	bspc {node,desktop} -f last
+
+# focus the older or newer node in the focus history
+super + {o,i}
+	bspc wm -h off; \
+	bspc node {older,newer} -f; \
+	bspc wm -h on
 
 # focus or send to the given desktop
 super + {_,shift + }{1-9,0}
 	bspc {desktop -f,node -d} '^{1-9,10}'
 
-#super + {_,shift,alt,ctrl} + {h,j,k,l}
-    #{focus,move,resize,presel}.sh {west,south,north,east}
 #
 # preselect
 #
@@ -105,6 +105,7 @@ super + ctrl + space
 # cancel the preselection for the focused desktop
 super + ctrl + shift + space
 	bspc query -N -d | xargs -I id -n 1 bspc node id -p cancel
+
 #
 # move/resize
 #
@@ -121,26 +122,22 @@ super + alt + shift + {h,j,k,l}
 super + {Left,Down,Up,Right}
 	bspc node -v {-20 0,0 20,0 -20,20 0}
 #
-# Hotkeys
-# 
+# Special hotkeys
+#
 
-# FileManager
-super + e
-   pcmanfm
-
-# Brightness
-XF86MonBrightness{Down,Up}
-	light {-U 5,-A 5}
-
-# Volume
-XF86Audio{LowerVolume,RaiseVolume}
-	pactl set-sink-volume {-2%,+2%}
-
-# Mute
-XF86AudioMute
-	pactl set-sink-mute 1 toggle
-
-
-# Screenshot
+# Screenshots
 Print
-	  scrot ~/%Y-%m-%d-%T-screenshot.png
+	scrot $HOME/Pictures/Screenshot-$(date +%F_%T).png -e "xclip -selection c -t image/png < $f"
+
+super + Print
+	scrot -s /tmp/Screenshot-$(date +%F_%T).png -e "xclip -selection c -t image/png < $f"
+
+# Multimedia keys
+XF86AudioRaiseVolume
+	amixer -q set Master 5%+ unmute
+
+XF86AudioLowerVolume
+	amixer -q set Master 5%- unmute
+
+XF86AudioMute
+amixer -q set Master mute
