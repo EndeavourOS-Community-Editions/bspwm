@@ -1,4 +1,4 @@
-# bspwm-WM Setup and Theme for EndeavourOS
+# bspwm-wm Setup and Theme for EndeavourOS
 Community Edition 
 ***
 
@@ -26,7 +26,7 @@ Community Edition
 - Scripts 
 - Some more things I've forgotten
 
-## Tutorial for sway-wm settings:
+## Tutorial for bspwm-wm settings:
 - Background handled by nitrogen
 - Gtk3 theme handled by lxappearance-gtk3
 - Filebrowser = Thunar
