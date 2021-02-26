@@ -21,6 +21,7 @@
     - xorg-xkill
     - xorg-xrandr
     - xorg-xinput
+    - xorg-xsetroot
     - xdg-utils
     - xdg-user-dirs
     - accountsservice
