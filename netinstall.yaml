@@ -77,7 +77,7 @@
     - ttf-croscore
     - ttf-carlito
     - ttf-caladea
-    - firefox  # what is the point to install if we are giving the choice to users?
+    # - firefox
     - alsa-utils
     - alsa-plugins
     - alsa-firmware
