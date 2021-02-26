@@ -136,7 +136,6 @@
     - chromium
     - vivaldi
     - konqueror
-    - librewolf # we can add to choice
     - falkon
     - epiphany
     - midori
@@ -178,6 +177,8 @@
     - sysstat
     - nitrogen
     - bluez-utils
+    - mpd
+    - ncmpcpp
     - rofi
     - xcursor-neutral
     - xbindkeys
@@ -195,7 +196,6 @@
     - arc-x-icons-theme
     - arc-gtk-theme
     - capitaine-cursors
-    - galculator # but why?
     - gtk-engine-murrine
     - seahorse
 - name: "Printing-Support"
