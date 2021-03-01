@@ -31,7 +31,7 @@ bspc config active_border_color         "#073642"
 #
 
 # Bar
-polybar example &
+polybar top -c ~/.config/polybar/config.ini &
 # Notifications
 /usr/bin/dunst &
 # Polkit
