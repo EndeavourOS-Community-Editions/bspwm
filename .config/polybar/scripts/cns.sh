@@ -5,33 +5,33 @@ function capslock() {
   caps=$(xset -q | grep Caps | awk '{ print $4 }')
 
   if [ $caps == 'off' ]; then
-    echo "c"
+    echo "%{T1}%{T-}"
   else
-    echo "C"
+    echo "%{T1}בּ%{T-}"
   fi
 
 }
 
 function numlock {
 
-  caps=$(xset -q | grep Num | awk '{ print $8 }')
+  num=$(xset -q | grep Num | awk '{ print $8 }')
 
-  if [ $caps == 'off' ]; then
-    echo "n"
+  if [ $num == 'off' ]; then
+    echo "%{T1}%{T-}"
   else
-    echo "N"
+    echo "%{T1}%{T-}"
   fi
 
 }
 
 function scroll() {
 
-  caps=$(xset -q | grep Scroll | awk '{ print $12 }')
+  scroll=$(xset -q | grep Scroll | awk '{ print $12 }')
 
-  if [ $caps == 'off' ]; then
-    echo "s"
+  if [ $scroll == 'off' ]; then
+    echo "%{T1}%{T-}"
   else
-    echo "S"
+    echo "%{T1}%{T-}"
 fi
 
 }
