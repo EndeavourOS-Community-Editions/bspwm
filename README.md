@@ -15,7 +15,7 @@ Community Edition
         
     cp .gtkrc-2.0 ~/.gtkrc-2.0
     
-    chmod -R +x ~/.config/bpswm/scripts
+    chmod -R +x ~/.config/bspwm/scripts
         
     sudo yay -Syu --needed --noconfirm - < packages-repository.txt
     
