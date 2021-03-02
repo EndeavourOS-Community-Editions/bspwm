@@ -137,19 +137,21 @@ super + {Left,Down,Up,Right}
 # Special hotkeys
 #
 
-# Screenshots
-Print
-	scrot $HOME/Pictures/Screenshot-$(date +%F_%T).png -e "xclip -selection c -t image/png < $f"
-
-super + Print
-	scrot -s /tmp/Screenshot-$(date +%F_%T).png -e "xclip -selection c -t image/png < $f"
-
 # Multimedia keys
 XF86AudioRaiseVolume
-	amixer -q set Master 5%+ unmute
+  amixer -q set Master 5%+ unmute
 
+# Still muøltimedia
 XF86AudioLowerVolume
-	amixer -q set Master 5%- unmute
+  amixer -q set Master 5%- unmute
 
+# still
 XF86AudioMute
-amixer -q set Master mute
+  amixer -q set Master mute
+
+# Screenshot
+Print
+  scrot
+
+super+Print
+  scrot -s ~/Pictures/Screenshot-$(date +%F_%T).png 
