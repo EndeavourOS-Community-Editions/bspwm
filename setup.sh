@@ -7,6 +7,8 @@ fi
 
 git clone https://github.com/OdiousImp2604/bspwm.git
 cd bspwm
+mkdir ~/.local/share/fonts
+cp -R IosevkaTermNerdFontComplete.ttf ~/.local/share/fonts
 cp -R .config /home/$NEW_USER/                                               
 chmod -R +x /home/$NEW_USER/.config/bspwm/scripts
 cp .gtkrc-2.0 /home/$NEW_USER/
