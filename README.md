@@ -22,7 +22,6 @@ Community Edition
     dbus-launch dconf load / < xed.dconf
     
 ## To-Do
-- Polybar Config
 - Scripts 
 - Some more things I've forgotten
 
