@@ -1,7 +1,8 @@
 #!/bin/bash
 
 # Easy setup for testing
-
+mkdir ~/.local/share/fonts
+cp -R IosevkaTermNerdFontComplete.ttf ~/.local/share/fonts
 cp -R .config/* ~/.config/
 chmod -R +x ~/.config/bspwm/scripts
 chmod -R +x ~/.config/polybar/scripts
