@@ -24,14 +24,13 @@ super + shift + d
                 -columns 2 -padding 50 -hide-scrollbar \
                 -show-icons -drun-icon-theme "Arc-X-D" -font "Droid Sans Regular 10"
 
-# make sxhkd reload its configuration files:
-super + Escape
-	pkill -USR1 -x sxhkd
-	
-	
 # power-menu 
 super + shift + e
      ~/.config/rofi/powermenu.sh
+
+# make sxhkd reload its configuration files:
+super + Escape
+	pkill -USR1 -x sxhkd
 
 #
 # bspwm hotkeys
@@ -42,7 +41,7 @@ super + alt + {q,r}
 	bspc {quit,wm -r}
 
 # close and kill
-super + {_,shift + }w
+super + {_,shift + }q
 	bspc node -{c,k}
 
 # alternate between the tiled and monocle layout
@@ -160,3 +159,10 @@ Print
 
 super+Print
   scrot -s ~/Pictures/Screenshot-$(date +%F_%T).png 
+
+# Shortcuts
+super + w 
+  firefox
+
+super + n 
+  thunar  
