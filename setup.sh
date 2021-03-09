@@ -17,3 +17,4 @@ chown $NEW_USER:$NEW_USER /home/$NEW_USER/.gtkrc-2.0
 cd ..
 rm -rf bspwm
 fc-cache -f -v
+xdg-user-dirs-update
