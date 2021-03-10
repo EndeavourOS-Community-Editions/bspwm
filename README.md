@@ -1,6 +1,6 @@
 # bspwm-wm Setup and Theme for EndeavourOS
-Community Edition 
-***
+**BSPWM EndeavorOS Community Edition**
+
 
 ## To Install manually
 
@@ -22,7 +22,7 @@ Community Edition
     dbus-launch dconf load / < xed.dconf
     
 ## Get involved at our forum:
-https://forum.endeavouros.com/t/bspwm-edition/8511/359
+https://forum.endeavouros.com/t/bspwm-edition
 
 ## Tutorial for bspwm-wm settings:
 - Background handled by nitrogen
