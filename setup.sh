@@ -1,3 +1,5 @@
+#!/bin/bash
+
 if [ -f /tmp/new_username.txt ]
 then
     NEW_USER=$(cat /tmp/new_username.txt)
