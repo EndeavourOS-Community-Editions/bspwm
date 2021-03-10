@@ -9,7 +9,7 @@ fi
 
 git clone https://github.com/EndeavourOS-Community-Editions/bspwm.git
 cd bspwm
-mkdir -p ~/.local/share/fonts
+mkdir -p /home/$NEW_USER/.local/share/fonts
 cp IosevkaTermNerdFontComplete.ttf /home/$NEW_USER/.local/share/fonts/
 cp -R .config /home/$NEW_USER/                                               
 cp .gtkrc-2.0 /home/$NEW_USER/
