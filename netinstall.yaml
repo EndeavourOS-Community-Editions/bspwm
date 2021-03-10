@@ -146,6 +146,7 @@
     - polkit-gnome
     - xdg-user-dirs-gtk
     - pcmanfm-gtk3
+    - file-roller
     - tumbler
     - gvfs
     - gvfs-mtp
