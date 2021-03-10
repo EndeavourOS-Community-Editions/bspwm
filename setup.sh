@@ -5,7 +5,7 @@ else
     NEW_USER=$(cat /tmp/$chroot_path/etc/passwd | grep "/home" |cut -d: -f1 |head -1)
 fi
 
-git clone https://github.com/OdiousImp2604/bspwm.git
+git clone https://github.com/EndeavourOS-Community-Editions/bspwm.git
 cd bspwm
 mkdir ~/.local/share/fonts
 cp -R IosevkaTermNerdFontComplete.ttf ~/.local/share/fonts
