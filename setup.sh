@@ -7,14 +7,11 @@ fi
 
 git clone https://github.com/EndeavourOS-Community-Editions/bspwm.git
 cd bspwm
-mkdir ~/.local/share/fonts
-cp -R IosevkaTermNerdFontComplete.ttf ~/.local/share/fonts
+mkdir -p ~/.local/share/fonts
+cp IosevkaTermNerdFontComplete.ttf /home/$NEW_USER/.local/share/fonts/
 cp -R .config /home/$NEW_USER/                                               
-chmod -R +x /home/$NEW_USER/.config/bspwm/scripts
 cp .gtkrc-2.0 /home/$NEW_USER/
 chown -R $NEW_USER:$NEW_USER /home/$NEW_USER/.config
 chown $NEW_USER:$NEW_USER /home/$NEW_USER/.gtkrc-2.0
 cd ..
 rm -rf bspwm
-fc-cache -f -v
-xdg-user-dirs-update
