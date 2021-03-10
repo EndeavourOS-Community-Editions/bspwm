@@ -78,7 +78,7 @@
     - ttf-croscore
     - ttf-carlito
     - ttf-caladea
-    # - firefox
+    - firefox
     - alsa-utils
     - alsa-plugins
     - alsa-firmware
@@ -127,21 +127,6 @@
     - eos-log-tool
     - keyserver-rank
     - inxi
-- name: "Browser"
-  description: "choose your browser."
-  hidden: false
-  selected: false
-  critical: false
-  packages:
-    - firefox
-    - chromium
-    - vivaldi
-    - konqueror
-    - falkon
-    - epiphany
-    - midori
-    - dillo
-    - netsurf
 - name: "bspwm"
   description: bspwm is a tiling window manager that represents windows as the leaves of a full binary tree"
   hidden: false
