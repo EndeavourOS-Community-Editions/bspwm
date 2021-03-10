@@ -13,5 +13,8 @@ cp -R .config /home/$NEW_USER/
 cp .gtkrc-2.0 /home/$NEW_USER/
 chown -R $NEW_USER:$NEW_USER /home/$NEW_USER/.config
 chown $NEW_USER:$NEW_USER /home/$NEW_USER/.gtkrc-2.0
+chmod -R +x /home/$NEW_USER/.config/bspwm/
+chmod -R +x /home/$NEW_USER/.config/sxhkd/
+chmod -R +x /home/$NEW_USER/.config/polybar/scripts
 cd ..
 rm -rf bspwm
