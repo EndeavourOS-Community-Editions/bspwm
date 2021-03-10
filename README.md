@@ -21,9 +21,8 @@ Community Edition
     
     dbus-launch dconf load / < xed.dconf
     
-## To-Do
-- Scripts 
-- Some more things I've forgotten
+## Get involved at our forum:
+https://forum.endeavouros.com/t/bspwm-edition/8511/359
 
 ## Tutorial for bspwm-wm settings:
 - Background handled by nitrogen
