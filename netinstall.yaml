@@ -6,7 +6,7 @@
   critical: false
   packages:
     - base-devel
-    - yay # this should be replaced with something under active development e.g. paru or pikaur
+    - yay
     - linux-headers
     - linux-firmware
     - pacman-contrib
@@ -68,16 +68,15 @@
     - solid
     - mlocate
     - ttf-dejavu
-    - gnu-free-fonts
     - ttf-liberation
     - ttf-bitstream-vera
-    - ttf-ubuntu-font-family
     - cantarell-fonts
     - noto-fonts
-    - noto-fonts-cjk
-    - ttf-croscore
-    - ttf-carlito
-    - ttf-caladea
+    - adobe-source-han-sans-jp-fonts
+    - adobe-source-han-sans-kr-fonts
+    - adobe-source-han-sans-cn-fonts
+    - opendesktop-fonts
+    - ttf-opensans
     - firefox
     - alsa-utils
     - alsa-plugins
