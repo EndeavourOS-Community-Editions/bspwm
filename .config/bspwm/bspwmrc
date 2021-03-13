@@ -39,7 +39,7 @@ polybar top -c ~/.config/polybar/config.ini &
 # Wallpaper
 nitrogen --restore &
 # Dex
-dex --wait /etc/xdg/autostart/welcome.desktop  
+dex -a -s /etc/xdg/autostart/:~/.config/autostart/  
 # Picom
 picom -CGb &
 # Network Applet
