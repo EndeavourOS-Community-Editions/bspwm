@@ -159,6 +159,7 @@
     - gvfs-nfs
     - gvfs-smb
     - termite
+    - xclip
     - lightdm
     - lightdm-gtk-greeter
     - lightdm-gtk-greeter-settings
