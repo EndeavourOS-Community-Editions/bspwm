@@ -13,6 +13,7 @@ mkdir -p /home/$NEW_USER/.local/share/fonts
 cp IosevkaTermNerdFontComplete.ttf /home/$NEW_USER/.local/share/fonts/
 cp -R .config /home/$NEW_USER/                                               
 cp .gtkrc-2.0 /home/$NEW_USER/
+chown -R $NEW_USER:$NEW_USER /home/$NEW_USER/.local
 chown -R $NEW_USER:$NEW_USER /home/$NEW_USER/.config
 chown $NEW_USER:$NEW_USER /home/$NEW_USER/.gtkrc-2.0
 chmod -R +x /home/$NEW_USER/.config/bspwm/
