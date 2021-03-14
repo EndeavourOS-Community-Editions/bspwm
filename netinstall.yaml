@@ -144,7 +144,10 @@
     - dmenu
     - polkit-gnome
     - xdg-user-dirs-gtk
-    - pcmanfm-gtk3
+    - thunar
+    - thunar-archive-plugin
+    - thunar-volman
+    - thunar-media-tags-plugin
     - file-roller
     - tumbler
     - gvfs
