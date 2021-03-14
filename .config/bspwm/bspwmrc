@@ -29,8 +29,7 @@ bspc config active_border_color         "#073642"
 #
 # Autostart
 #
-# Set display from arandr saved script
-sh ~/.screenlayout/monitor.sh &
+
 # Bar
 polybar top -c ~/.config/polybar/config.ini &
 # Notifications
@@ -40,7 +39,7 @@ polybar top -c ~/.config/polybar/config.ini &
 # Wallpaper
 nitrogen --restore &
 # Dex
-dex -a -s /etc/xdg/autostart/:~/.config/autostart/  
+dex --wait /etc/xdg/autostart/welcome.desktop  
 # Picom
 picom -CGb &
 # Network Applet

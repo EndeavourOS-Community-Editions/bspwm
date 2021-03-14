@@ -155,10 +155,10 @@ XF86AudioMute
 
 # Screenshot
 Print
-  scrot
+  scrot /Pictures/Screenshot-$(date +%F_%T).png
 
 super+Print
-  scrot -s ~/Pictures/Screenshot-$(date +%F_%T).png 
+ ~/.config/bspwm/scripts/screenshot.sh  
 
 # Shortcuts
 super + w 
