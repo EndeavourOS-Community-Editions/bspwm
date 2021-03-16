@@ -135,7 +135,7 @@
     - bspwm
     - sxhkd
     - polybar
-    - slock
+    - i3lock
     - network-manager-applet
     - arandr
     - archlinux-xdg-menu
