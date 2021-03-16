@@ -140,7 +140,7 @@
     - arandr
     - archlinux-xdg-menu
     - lxappearance-gtk3
-    - otf-font-awesome
+    - ttf-nerd-fonts-symbols
     - dmenu
     - polkit-gnome
     - xdg-user-dirs-gtk
