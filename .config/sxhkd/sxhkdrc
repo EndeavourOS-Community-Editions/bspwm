@@ -151,7 +151,11 @@ XF86AudioLowerVolume
 
 # still
 XF86AudioMute
-  amixer -q set Master mute
+  amixer -D pulse sset Master toggle-mute
+  
+# amixer -q set Master toggle
+# Simple amixer command seems to have problems unmuting device
+  
 
 # Screenshot
 Print
