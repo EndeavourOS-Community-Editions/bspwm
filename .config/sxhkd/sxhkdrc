@@ -155,7 +155,14 @@ XF86AudioMute
   
 # amixer -q set Master toggle
 # Simple amixer command seems to have problems unmuting device
-  
+
+# Brightness up
+XF86MonBrightnessUp
+  xbacklight -inc 5
+
+# And brightness down
+XF86MonBrightnessDown
+  xbacklight -dec 5
 
 # Screenshot
 Print

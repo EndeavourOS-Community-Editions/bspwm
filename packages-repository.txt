@@ -48,3 +48,4 @@ galculator
 gtk-engine-murrine
 seahorse
 ttf-nerd-fonts-symbols
+xorg-xbacklight

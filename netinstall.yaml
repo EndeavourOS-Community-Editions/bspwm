@@ -188,6 +188,7 @@
     - capitaine-cursors
     - gtk-engine-murrine
     - seahorse
+    - xorg-xbacklight
 - name: "Printing-Support"
   description: "Support for printing (Cups)"
   hidden: false
