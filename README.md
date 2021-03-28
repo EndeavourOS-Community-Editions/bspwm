@@ -33,4 +33,4 @@ https://forum.endeavouros.com/t/bspwm-edition
 - Application Launcher = Rofi
 
 
-
+![bspwm](https://raw.githubusercontent.com/EndeavourOS-Community-Editions/bspwm/main/bspwm.png)
