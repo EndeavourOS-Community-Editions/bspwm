@@ -1,0 +1,104 @@
+For the latest version of Endeavour OS Bspwm Edition configs, visit our GitHub repository
+https://github.com/EndeavourOS-Community-Editions/bspwm
+
+For a quick start guide, read our wiki page
+https://discovery.endeavouros.com/window-tiling-managers/bspwm-2/2021/03/
+
+To share your suggestions, please visit our forum thread
+https://forum.endeavouros.com/t/bspwm-edition/8511
+
+
+
+
+
+###################
+
+Utility Keyboard Shortcuts
+
+###################
+
+-> Open terminal (termite)
+Super + Return
+
+-> App launcher (Rofi)
+Super + d
+
+-> Window switcher
+Super + Ctrl
+
+-> Show SSH sessions
+Super + Shift + d
+
+-> Power Menu
+Super + Shift + e
+
+-> Reload Sxhkd (you need to do this after you modify sxhkdrc)
+Super + Escape
+
+-> Screen shot full monitor and save in Pictures folder
+Print
+
+-> Show screenshot menu
+Super + Print
+
+-> Launch Firefox
+Super + w
+
+-> Launch Thunar
+Super + n
+
+
+
+
+
+###################
+
+Bspwm Keyboard Shortcuts
+
+###################
+
+-> Restart Bspwm
+Super + Alt + r
+
+-> Quit Bspwm
+Super + Alt + q
+
+-> Close focused window
+Super + Shift + q
+
+-> Switch between tiled and monocle layout
+Super + m
+
+-> Swap current and largest window
+Super + g
+
+-> Change focus {west, south, north, east}
+Super + {h, j, k, l}
+It's like vim keys :)
+
+-> Switch to different desktop
+Super + <number>
+
+-> Send current node to different desktop
+Super + Shift + <number>
+
+-> Expand a window {left, bottom, top, right}
+Super + Alt + {h, j, k l}
+
+-> Contract a window {left, bottom, top, right}
+Super + Alt + Shift + {h, j, k, l}
+
+-> Move a floating window
+Super + {left, down, up, right}
+
+-> Focus the last node
+Super + grave
+
+-> Focus the last desktop
+Super + Tab
+
+-> Focus older node in focus history
+Super + o
+
+-> Focus newer node in focus history
+Super + i
