@@ -177,3 +177,6 @@ super + w
 
 super + n 
   thunar  
+
+super + F1
+  less ~/.config/bspwm/keybindings
