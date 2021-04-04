@@ -183,8 +183,8 @@
     - jq
     - feh
     - dunst
+    - arc-gtk-theme-eos
     - arc-x-icons-theme
-    - arc-gtk-theme
     - capitaine-cursors
     - gtk-engine-murrine
     - seahorse
