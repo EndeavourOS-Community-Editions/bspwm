@@ -98,7 +98,6 @@
     - gst-plugins-bad
     - gst-plugins-ugly
     - gst-plugin-pipewire
-    - mplayer
     - libdvdcss
     - efibootmgr
     - dosfstools
@@ -168,6 +167,7 @@
     - nitrogen
     - bluez-utils
     - mpd
+    - celluloid
     - ncmpcpp
     - rofi
     - xcursor-neutral
