@@ -119,7 +119,6 @@
     - welcome
     - eos-update-notifier
     - eos-hooks
-    - nvidia-installer-dkms
     - mkinitcpio-openswap
     - pcurses    
     - eos-log-tool
