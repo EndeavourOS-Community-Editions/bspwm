@@ -189,7 +189,7 @@
     - gtk-engine-murrine
     - seahorse
     - xorg-xbacklight
-    - meld
+    - diffuse
 - name: "Printing-Support"
   description: "Support for printing (Cups)"
   hidden: false
