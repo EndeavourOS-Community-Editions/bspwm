@@ -169,7 +169,7 @@ Print
   scrot ~/Pictures/Screenshot-$(date +%F_%T).png
 
 super+Print
- ~/.config/bspwm/scripts/screenshot.sh  
+  ~/.config/bspwm/scripts/screenshot.sh
 
 # Shortcuts
 super + w 
@@ -179,4 +179,4 @@ super + n
   thunar  
 
 super + F1
-  termite -e "less /home/$USER/.config/bspwm/keybindings" --hold
+  ~/.config/bspwm/scripts/keybindings_rofi.sh
