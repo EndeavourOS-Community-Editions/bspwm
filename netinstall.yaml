@@ -1,4 +1,3 @@
-
 - name: "Base-devel + Common packages"
   description: "Recommended. Don't change unless you know what you're doing. Base-devel group and some other commom utilities (generic)"
   hidden: false
@@ -21,7 +20,6 @@
     - xorg-xkill
     - xorg-xrandr
     - xorg-xinput
-    - xorg-xsetroot
     - xdg-utils
     - xdg-user-dirs
     - accountsservice
@@ -63,7 +61,6 @@
     - dnsmasq
     - upower
     - hwinfo
-    - gtop
     - python
     - solid
     - mlocate
@@ -78,12 +75,11 @@
     - opendesktop-fonts
     - ttf-opensans
     - firefox
+    - firefox-i18n-$LOCALE
     - alsa-utils
     - alsa-plugins
     - alsa-firmware
-    - hardinfo
     - glances
-    - htop
     - neofetch
     - pulseaudio
     - pavucontrol
@@ -91,7 +87,7 @@
     - sof-firmware
     - ffmpegthumbnailer
     - poppler-glib
-    - libgsf 
+    - libgsf
     - libopenraw
     - freetype2
     - gst-libav
@@ -102,7 +98,6 @@
     - efibootmgr
     - dosfstools
     - mtools
-    - openssh
     - intel-ucode
     - amd-ucode
     - os-prober
@@ -120,10 +115,10 @@
     - eos-update-notifier
     - eos-hooks
     - mkinitcpio-openswap
-    - pcurses    
     - eos-log-tool
     - keyserver-rank
     - inxi
+    - tldr
 - name: "bspwm"
   description: bspwm is a tiling window manager that represents windows as the leaves of a full binary tree"
   hidden: false
@@ -189,6 +184,9 @@
     - seahorse
     - xorg-xbacklight
     - meld
+    - xorg-xsetroot
+    - htop
+    - hardinfo
 - name: "Printing-Support"
   description: "Support for printing (Cups)"
   hidden: false
