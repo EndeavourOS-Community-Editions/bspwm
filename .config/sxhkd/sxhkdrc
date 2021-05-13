@@ -4,24 +4,24 @@
 
 # terminal emulator
 super + Return
-	termite
+	xfce4-terminal
 
 # program launcher
 super + d
 	rofi -modi drun -show drun -line-padding 4 \
-                -columns 2 -padding 50 -hide-scrollbar -terminal termite \
+                -columns 2 -padding 50 -hide-scrollbar -terminal xfce4-terminal \
                 -show-icons -drun-icon-theme "Arc-X-D" -font "Droid Sans Regular 10"
 
 # show open window
 super + ctrl + d
 	rofi -modi drun -show window -line-padding 4 \
-                -columns 2 -padding 50 -hide-scrollbar -terminal termite \
+                -columns 2 -padding 50 -hide-scrollbar -terminal xfce4-terminal \
                 -show-icons -drun-icon-theme "Arc-X-D" -font "Droid Sans Regular 10"
 
 # show ssh sesssions
 super + shift + d
 	rofi -modi drun -show ssh -line-padding 4 \
-                -columns 2 -padding 50 -hide-scrollbar -terminal termite \
+                -columns 2 -padding 50 -hide-scrollbar -terminal xfce4-terminal \
                 -show-icons -drun-icon-theme "Arc-X-D" -font "Droid Sans Regular 10"
 
 # power-menu 

@@ -17,7 +17,7 @@ Utility Keyboard Shortcuts
 
 ###################
 
--> Open terminal (termite)
+-> Open terminal (xfce4-terminal)
 Super + Return
 
 -> App launcher (Rofi)

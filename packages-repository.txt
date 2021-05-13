@@ -19,7 +19,7 @@ gvfs-google
 gvfs-gphoto2
 gvfs-nfs
 gvfs-smb
-termite
+xfce4-terminal
 lightdm
 lightdm-gtk-greeter
 lightdm-gtk-greeter-settings

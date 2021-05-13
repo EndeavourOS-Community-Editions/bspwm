@@ -151,7 +151,7 @@
     - gvfs-gphoto2
     - gvfs-nfs
     - gvfs-smb
-    - termite
+    - xfce4-terminal
     - xclip
     - lightdm
     - lightdm-gtk-greeter
