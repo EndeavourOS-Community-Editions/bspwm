@@ -193,17 +193,17 @@
   selected: false
   critical: false
   packages:
-    - cups 
-    - cups-filters 
-    - cups-pdf 
-    - ghostscript 
-    - gsfonts 
+    - cups
+    - cups-filters
+    - cups-pdf
+    - ghostscript
+    - gsfonts
     - foomatic-db-engine
-    - foomatic-db 
-    - foomatic-db-ppds 
-    - foomatic-db-nonfree 
-    - foomatic-db-nonfree-ppds 
-    - gutenprint 
+    - foomatic-db
+    - foomatic-db-ppds
+    - foomatic-db-nonfree
+    - foomatic-db-nonfree-ppds
+    - gutenprint
     - foomatic-db-gutenprint-ppds
     - splix
     - system-config-printer
