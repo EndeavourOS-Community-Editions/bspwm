@@ -134,7 +134,6 @@
     - archlinux-xdg-menu
     - lxappearance-gtk3
     - ttf-nerd-fonts-symbols
-    - dmenu
     - polkit-gnome
     - xdg-user-dirs-gtk
     - thunar
@@ -160,9 +159,6 @@
     - sysstat
     - nitrogen
     - bluez-utils
-    - mpd
-    - celluloid
-    - ncmpcpp
     - rofi
     - xcursor-neutral
     - xbindkeys
