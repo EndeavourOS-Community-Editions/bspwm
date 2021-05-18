@@ -6,7 +6,6 @@ network-manager-applet
 arandr
 archlinux-xdg-menu
 lxappearance-gtk3
-dmenu
 polkit-gnome
 xdg-user-dirs-gtk
 pcmanfm-gtk3
