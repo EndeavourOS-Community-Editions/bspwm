@@ -22,7 +22,7 @@
     dbus-launch dconf load / < xed.dconf
     
 ## Get involved at our forum:
-https://forum.endeavouros.com/t/bspwm-edition
+https://forum.endeavouros.com/c/desktop-environments/bspwm/75
 
 ## Tutorial for bspwm-wm settings:
 - Background handled by nitrogen
