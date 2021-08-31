@@ -17,7 +17,7 @@
     
     chmod -R +x ~/.config/bspwm/scripts
         
-    sudo yay -Syu --needed --noconfirm - < packages-repository.txt
+    yay -Syu --needed --noconfirm - < packages-repository.txt
     
     dbus-launch dconf load / < xed.dconf
     
