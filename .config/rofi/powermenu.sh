@@ -15,7 +15,7 @@ $reboot
 $shutdown" | rofi -dmenu\
                   -i\
                   -p "Power"\
-                  -config "~/.config/rofi/config.rasi"\
+                  -config "~/.config/rofi/powermenu.rasi"\
                   -font "Symbols Nerd Font 12"\
                   -width "15"\
                   -lines 5\

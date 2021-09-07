@@ -34,14 +34,21 @@
     active-background:           rgba ( 29, 31, 33, 17 % );
     selected-active-background:  rgba ( 68, 145, 237, 100 % );
 }
-window {
-    background-color: @background;
-    border:           1;
-    padding:          5;
-}
 listview {
-    lines:                          15;
-    columns:                        3;
+    lines:                          6;
+    columns:                        1;
+}
+
+window {
+    background-color:            @background;
+    border:                        1;
+    padding:                          2;
+    transparency:                   "real";
+    width:                          170px;
+    location:                       5;
+    y-offset:                       0;
+	x-offset:                        0;
+    hide-scrollbar:                 true;
 }
 mainbox {
     border:  0;
