@@ -15,9 +15,11 @@ if [[ -f $BAT_PATH/charge_full ]]
 then
     BAT_FULL=$BAT_PATH/charge_full
     BAT_NOW=$BAT_PATH/charge_now
-else
+elif [[ -f $BAT_PATH/energy_full ]]
     BAT_FULL=$BAT_PATH/energy_full
     BAT_NOW=$BAT_PATH/energy_now
+else
+    exit
 fi
 
 ### END OF VARIABLES
