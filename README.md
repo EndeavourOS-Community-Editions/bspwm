@@ -1,4 +1,4 @@
-# bspwm-wm Setup and Theme for EndeavourOS
+# BSPWM Setup and Theme for EndeavourOS
 **BSPWM EndeavorOS Community Edition**
 
 
