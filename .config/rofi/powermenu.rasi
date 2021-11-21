@@ -20,8 +20,8 @@ window {
     padding:                        10;
     transparency:                   "real";
     width:                          180px;
-    location:                       east;
-/*y-offset:                       18;*/
+    location:                       northwest;
+y-offset:                       30;
 /*x-offset:	                    850;*/
     transparency:                   "real";
 }
