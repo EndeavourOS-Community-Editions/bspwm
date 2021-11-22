@@ -29,7 +29,6 @@ bluez-utils
 rofi
 xcursor-neutral
 xbindkeys
-pulseaudio
 paprefs
 pavucontrol
 scrot
