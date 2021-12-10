@@ -2,7 +2,7 @@
 
 ### VARIABLES
 
-POLL_INTERVAL=60     # seconds at which to check battery level
+POLL_INTERVAL=120    # seconds at which to check battery level
 LOW_BAT=33           # lesser than this is considered low battery
 
 # If BAT0 doesn't work for you, check available devices with command below
@@ -37,8 +37,10 @@ kill_running() {     # stop older instances to not get multiple notifications
    done
 }
 
+launched=0
+
 # Run only if battery is detected
-if ls -1qA /sys/class/power_supply/ | grep -q .
+if ls -1qA /sys/class/power_supply/ | grep -q BAT
 then 
 
     kill_running
@@ -51,9 +53,13 @@ then
 
         bat_percent=$(( 100 * $bn / $bf ))
 
-        if [[ $bat_percent -lt $LOW_BAT && "$bs" = "Discharging" ]]
+        if [[ $bat_percent -lt $LOW_BAT && "$bs" = "Discharging" $launched -lt 3 ]]
         then
             notify-send --urgency=critical "$bat_percent% : Low Battery!"
+            launched=$((launched+1))
+        elif [[ "$bs" = "Charging" ]]
+        then
+            launched=0
         fi
         sleep $POLL_INTERVAL
     done
