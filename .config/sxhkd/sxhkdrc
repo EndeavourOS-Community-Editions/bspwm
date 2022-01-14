@@ -145,7 +145,7 @@ super + {Left,Down,Up,Right}
 XF86AudioRaiseVolume
   amixer -q set Master 5%+ unmute
 
-# Still muøltimedia
+# Still multimedia
 XF86AudioLowerVolume
   amixer -q set Master 5%- unmute
 
