@@ -145,7 +145,7 @@ super + {Left,Down,Up,Right}
 XF86AudioRaiseVolume
   amixer -q set Master 5%+ unmute
 
-# Still muøltimedia
+# Still multimedia
 XF86AudioLowerVolume
   amixer -q set Master 5%- unmute
 
@@ -168,7 +168,7 @@ XF86MonBrightnessDown
 Print
   scrot ~/Pictures/Screenshot-$(date +%F_%T).png
 
-super+Print
+super + Print
   ~/.config/bspwm/scripts/screenshot.sh
 
 # Shortcuts
