@@ -53,7 +53,7 @@ then
 
         bat_percent=$(( 100 * $bn / $bf ))
 
-        if [[ $bat_percent -lt $LOW_BAT && "$bs" = "Discharging" $launched -lt 3 ]]
+        if [[ $bat_percent -lt $LOW_BAT && "$bs" = "Discharging" && $launched -lt 3 ]]
         then
             notify-send --urgency=critical "$bat_percent% : Low Battery!"
             launched=$((launched+1))
