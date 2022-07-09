@@ -24,7 +24,7 @@ Super + Return
 Super + d
 
 -> Window switcher
-Super + Ctrl
+Super + Ctrl + d
 
 -> Show SSH sessions
 Super + Shift + d
