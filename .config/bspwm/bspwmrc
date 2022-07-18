@@ -31,9 +31,9 @@ bspc config active_border_color         "#073642"
 # Autostart
 #
 # Set display from arandr saved script
-sh ~/.screenlayout/monitor.sh &
+sh $HOME/.screenlayout/monitor.sh &
 # Bar
-~/.config/polybar/launch.sh &
+$HOME/.config/polybar/launch.sh &
 # Notifications
 /usr/bin/dunst &
 # Polkit
@@ -41,7 +41,7 @@ sh ~/.screenlayout/monitor.sh &
 # Wallpaper
 nitrogen --restore &
 # Dex
-dex -a -s /etc/xdg/autostart/:~/.config/autostart/  
+dex -a -s /etc/xdg/autostart/:$HOME/.config/autostart/
 # Picom
 # picom -b &
 # Network Applet
@@ -51,5 +51,5 @@ nm-applet --indicator &
 xsetroot -cursor_name left_ptr &
 
 # Low battery notifier
-~/.config/bspwm/scripts/low_bat_notifier.sh
+$HOME/.config/bspwm/scripts/low_bat_notifier.sh
 

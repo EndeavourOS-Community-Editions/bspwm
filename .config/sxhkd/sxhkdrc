@@ -26,7 +26,7 @@ super + shift + d
 
 # power-menu 
 super + shift + e
-     ~/.config/rofi/powermenu.sh
+     $HOME/.config/rofi/powermenu.sh
 
 # make sxhkd reload its configuration files:
 super + Escape
@@ -166,10 +166,10 @@ XF86MonBrightnessDown
 
 # Screenshot
 Print
-  scrot ~/Pictures/Screenshot-$(date +%F_%T).png
+  scrot $HOME/Pictures/Screenshot-$(date +%F_%T).png
 
 super + Print
-  ~/.config/bspwm/scripts/screenshot.sh
+  $HOME/.config/bspwm/scripts/screenshot.sh
 
 # Shortcuts
 super + w 
@@ -179,4 +179,4 @@ super + n
   thunar  
 
 super + F1
-  ~/.config/bspwm/scripts/keybindings_rofi.sh
+  $HOME/.config/bspwm/scripts/keybindings_rofi.sh
