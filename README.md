@@ -19,8 +19,6 @@
         
     yay -Syu --needed --noconfirm - < packages-repository.txt
     
-    dbus-launch dconf load / < xed.dconf
-    
 ## Get involved at our forum:
 https://forum.endeavouros.com/c/desktop-environments/bspwm/75
 
