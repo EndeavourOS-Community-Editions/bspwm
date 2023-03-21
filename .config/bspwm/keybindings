@@ -83,7 +83,7 @@ Super + <number>
 Super + Shift + <number>
 
 -> Expand a window {left, bottom, top, right}
-Super + Alt + {h, j, k l}
+Super + Alt + {h, j, k, l}
 
 -> Contract a window {left, bottom, top, right}
 Super + Alt + Shift + {h, j, k, l}
