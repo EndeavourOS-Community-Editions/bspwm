@@ -19,7 +19,7 @@ window {
     border:                         0;
     padding:                        10;
     transparency:                   "real";
-    width:                          120px;
+    width:                          140px;
     location:                       northwest;
     y-offset:                       30;
     /*x-offset:	                    850;*/
