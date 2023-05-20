@@ -19,8 +19,6 @@
         
     yay -Syu --needed --noconfirm - < packages-repository.txt
     
-## Get involved at our forum:
-https://forum.endeavouros.com/c/desktop-environments/bspwm/75
 
 ## Tutorial for bspwm-wm settings:
 - Background handled by nitrogen
@@ -30,5 +28,6 @@ https://forum.endeavouros.com/c/desktop-environments/bspwm/75
 - Text-Editor = xed
 - Application Launcher = Rofi
 
+## Get involved in our [forums](https://forum.endeavouros.com/c/desktop-environments/bspwm/75)
 
 ![bspwm](https://raw.githubusercontent.com/EndeavourOS-Community-Editions/bspwm/main/bspwm.png)
