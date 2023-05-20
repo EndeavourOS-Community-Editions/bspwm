@@ -30,4 +30,7 @@
 
 ## Get involved in our [forums](https://forum.endeavouros.com/c/desktop-environments/bspwm/75)
 
+<br>
+
 ![bspwm](https://raw.githubusercontent.com/EndeavourOS-Community-Editions/bspwm/main/bspwm.png)
+(Image from EnduavorOS forums!)
