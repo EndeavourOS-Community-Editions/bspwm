@@ -39,7 +39,7 @@ thunar
 thunar-archive-plugin
 thunar-media-tags-plugin
 thunar-volman
-ttf-nerd-fonts-symbols-2048-em
+ttf-nerd-fonts-symbols
 tumbler
 xbindkeys
 xclip
