@@ -1,3 +1,6 @@
+## unmaintained needs contributors or maintainer
+
+
 # BSPWM Setup and Theme for EndeavourOS
 **BSPWM EndeavorOS Community Edition**
 
