@@ -158,11 +158,11 @@ XF86AudioMute
 
 # Brightness up
 XF86MonBrightnessUp
-  xbacklight -inc 5
+  brightnessctl set +50
 
 # And brightness down
 XF86MonBrightnessDown
-  xbacklight -dec 5
+  brightnessctl set 50-
 
 # Screenshot
 Print
