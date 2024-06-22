@@ -17,4 +17,5 @@ cd ..
 rm -rf bspwm
 wget https://raw.githubusercontent.com/EndeavourOS-Community-Editions/bspwm/main/packages-repository.txt
 pacman -S --needed --noconfirm - < packages-repository.txt
+rm packages-repository.txt
 systemctl enable lightdm
