@@ -4,6 +4,12 @@
 # BSPWM Setup and Theme for EndeavourOS
 **BSPWM EndeavorOS Community Edition**
 
+## june 22 2024 added iso install script to be used on welcome of current EndeavourOS isntaller:
+
+https://raw.githubusercontent.com/EndeavourOS-Community-Editions/bspwm/main/setup_bspwm_isomode.bash
+
+Read here on how to use it:
+https://github.com/EndeavourOS-Community-Editions/.github/blob/main/profile/README.md
 
 ## To Install manually
 
