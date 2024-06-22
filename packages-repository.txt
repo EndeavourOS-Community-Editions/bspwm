@@ -9,7 +9,6 @@ dunst
 endeavouros-xfce4-terminal-colors
 eos-lightdm-slick-theme
 eos-qogir-icons
-eos-skel-ce-bspwm
 feh
 file-roller
 gtk-engine-murrine
