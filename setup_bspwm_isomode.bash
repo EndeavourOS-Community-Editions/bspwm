@@ -15,3 +15,6 @@ chmod -R +x /home/$username/.config/sxhkd/
 chmod -R +x /home/$username/.config/polybar/scripts
 cd ..
 rm -rf bspwm
+wget https://raw.githubusercontent.com/EndeavourOS-Community-Editions/bspwm/main/packages-repository.txt
+pacman -S --needed --noconfirm - < packages-repository.txt
+systemctl enable lightdm
