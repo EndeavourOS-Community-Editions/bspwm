@@ -21,9 +21,7 @@ gvfs-smb
 htop
 i3lock
 jq
-lightdm
-lightdm-slick-greeter
-lxappearance-gtk3
+nwg-look
 mpv
 network-manager-applet
 nitrogen
@@ -31,6 +29,7 @@ picom
 polkit-gnome
 polybar
 rofi
+eos-sddm-theme
 scrot
 sxhkd
 sysstat
