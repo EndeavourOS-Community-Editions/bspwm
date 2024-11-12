@@ -13,7 +13,7 @@ https://github.com/EndeavourOS-Community-Editions/.github/blob/main/profile/READ
 
 ++ changelog
 [june 22 20024]
-* changed from lightdm to sdd (as of lightdm do not show BSPWM session)
+* changed from lightdm to sddm (as of lightdm do not show BSPWM session)
 * changed lxappearance to nwg-look
 
 ## To Install manually
